@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Open Sans, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    
+    
+}
+
+div {
+    margin: auto ;
+    border: black 2px solid;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+    justify-content: space-around;
+    align-items: center;
+    background-color:firebrick;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
+
+header {
+    width: 450px;
+    height: 50px;
+
+   
+}
+
+h1 {
+    font-size: 20pt;
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(32, 11, 11);
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 1px red;
+}
+
+h3 {
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(32, 11, 11);
+}
+
+
+section {
+    width: 350px;
+    border: 2px solid rgba(128, 123, 123, 0.301);
+    border-radius: 5px;
+    
+
+    
+}
+
+input {
+    text-align: center;
+    width: 300px;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 12pt;
+    border-radius: 5px;
+    background-color: aqua;
+    position: relative;
+    left: 25px;
+    
+}
+
+button {
+    margin-top: 15px;
+    padding: 5px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 5px;
+    position: relative;
+    left: 125px;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    height: 100px;
+    width: 200px;
+    border: 2px solid rgba(128, 123, 123, 0.301);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+    color: aliceblue; 
+    text-transform: capitalize;
+    font-size: 12px;
+}

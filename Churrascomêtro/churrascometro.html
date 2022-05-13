@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <link rel="stylesheet" href="churrascometro.css"> 
+</head>
+
+<body>
+    <div>
+
+        <header>
+            <h1>Churrascômetro</h1>
+            <h3>Calculate the amount of food for a barbecue</h3>
+        </header>
+    
+        <section>
+                <input type="number" id="adults" placeholder="Adults">
+                <input type="number" id="childs" placeholder="Children">
+                <input type="number" id="partyTime" placeholder="Duration">
+                <button onclick="result()">Show Results</button>
+        </section>
+
+        <footer>
+            <p id="food"></p>
+            <p id="beer"></p>
+            <p id="soda"></p>    
+        </footer>
+
+    </div>
+
+    <script src="churrascometro.js"></script>
+
+</body>
+</html>
