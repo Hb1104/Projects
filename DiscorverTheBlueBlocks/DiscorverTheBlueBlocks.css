@@ -1,0 +1,201 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(8, 2, 66);
+    text-transform: uppercase;
+}
+
+#divh1 {
+    text-align: center;
+    font-size: 8px;
+    width: 500px;
+    margin: auto auto 10px auto;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    height: 600px;
+    background-color: rgba(255, 227, 227, 0.404);
+    border: 5px solid black;
+    margin: 10px auto auto auto;
+    border-radius: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+#blocks-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100%;
+    background-color: #58647a;
+    border-radius: 20px;
+    padding: 10px 5px 5px 0px;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    margin: 10px 5px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+footer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    * {
+        font-size: 20px;
+    }
+
+    #divh1 {
+        width: 300px;
+       
+    }
+
+    #container {
+        height: auto;   
+
+    }
+
+    .block {
+        width: 100px;
+        height: 100px;
+        margin: 2px;
+        padding: 2px;
+    }
+    
+}
+
+@media screen and (max-width: 495px){
+
+    .block {
+        width: 80px;
+        height: 100px;
+    
+    }
+}
+
+@media screen and (max-width: 405px){
+
+    .block {
+        width: 65px;
+        height: 95px;
+    }
+}
+
+@media screen and (max-width: 340px){
+
+    #divh1 {
+        width: 230px;
+       
+    }
+
+    .block {
+        width: 50px;
+        height: 95px;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* }
+#container {
+    max-width: 500px;
+    height: 500px;
+    background-color: rgb(155, 5, 5);
+    border: 2px solid black;
+    margin: auto;
+    
+}
+.block {
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border: solid 2px black;
+}
+#timer {
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+#moves {
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+header {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#numberRedBlocks {
+
+    max-width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+} */
