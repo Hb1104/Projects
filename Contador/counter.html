@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="counter.css">
+
+</head>
+<body>
+
+    <div class="master-conteiner">
+        <h1>Counter</h1>
+        <h3>Click buttons to increase or decrease by 1. You can modify this number on the side.</h3>
+        <div class="counter-conteiner display-flex">
+            <div>
+                <input type="number" id="decreaseIn" placeholder="Decrease In">
+            </div>
+            <div class="center display-flex">
+                <div class="counter display-flex">
+                    <p id="result"></p>
+                </div>
+                <div class="buttonOptions display-flex">
+                    <button id="buttonDecrease">Decrease 1</button>
+                    <button id="buttonIncrease">Increase 1</button>
+                </div>
+            </div>
+            <div>
+                <input type="number" id="increaseIn" placeholder="Increase In">
+            </div>
+        </div>
+    </div>
+    
+        
+    <script src="counter.js"></script> 
+
+</body>
+</html>
