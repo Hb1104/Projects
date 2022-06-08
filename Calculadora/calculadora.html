@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <h3 id="result">0</h3>
+        </div>
+        
+        <div class="container-buttons">
+            <div class="buttons" onclick="back ()">&lt</div>
+            <div class="buttons" onclick="clean()">C</div>
+            <div class="buttons" onclick="clicks('%')">%</div>
+            <div class="buttons" onclick="clicks('+')">+</div>
+            <div class="buttons" onclick="clicks(1)">1</div>
+            <div class="buttons" onclick="clicks(2)">2</div>
+            <div class="buttons" onclick="clicks(3)">3</div>
+            <div class="buttons" onclick="clicks('-')">-</div>
+            <div class="buttons" onclick="clicks(4)">4</div>
+            <div class="buttons" onclick="clicks(5)">5</div>
+            <div class="buttons" onclick="clicks(6)">6</div>
+            <div class="buttons" onclick="clicks('*')">x</div>
+            <div class="buttons" onclick="clicks(7)">7</div>
+            <div class="buttons" onclick="clicks(8)">8</div>
+            <div class="buttons" onclick="clicks(9)">9</div>
+            <div class="buttons" onclick="clicks('/')">÷</div>
+            <div class="buttons a0" onclick="clicks(0)">0</div>
+            <div class="buttons" onclick="clicks('.')">.</div>
+            <div class="buttons a2"onclick="result()">=</div>
+            
+        </div>
+      
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>
+
